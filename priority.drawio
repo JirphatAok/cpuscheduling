@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
   <diagram name="Page-1" id="1UH8hFeLwi0AJCHHLiri">
-    <mxGraphModel dx="513" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="446" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-3" value="รับข้อมูล ของ Process (Burst time , arrival_time , priority)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="290" y="200" width="235" height="80" as="geometry" />
+          <mxGeometry x="290" y="240" width="235" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-4" target="xQF8ePdnXQJCXrwEv5hU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-4" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="357.5" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="357.5" y="140" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-8" target="xQF8ePdnXQJCXrwEv5hU-10">
           <mxGeometry relative="1" as="geometry" />
@@ -26,10 +26,117 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-10" value="priority_scheduling โดยส่งตัวแปร (processes, n);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="266.63" y="400" width="281.75" height="50" as="geometry" />
+          <mxGeometry x="266.63" y="400" width="281.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-12" target="xQF8ePdnXQJCXrwEv5hU-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-12" value="สร้างตัวแปร&amp;nbsp;&amp;nbsp;current_time ,&amp;nbsp;total_waiting_time&lt;div&gt;total_turnaround_time&amp;nbsp;completed กำหนดค่าเริ่มต้นเป็น 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="257.51" y="480" width="300" height="50" as="geometry" />
+          <mxGeometry x="257.5" y="480" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-15" value="ตั้งเวลาเริ่มต้นในการประมวลผลที่ 0&lt;div&gt;ตั้งเวลารอคอยรวมเป็น 0&lt;/div&gt;&lt;div&gt;ตั้งเวลาครบวงจรรวมเป็น 0&lt;/div&gt;&lt;div&gt;ตั้งตัวนับจำนวนกระบวนการที่เสร็จสิ้นเป็น 0&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="470" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-17" target="xQF8ePdnXQJCXrwEv5hU-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-17" value="สร้างอาร์เรย์ที่ใช้ในการติดตามกระบวนการที่เสร็จสิ้นโดยใช้การจองพื้นที่ด้วย calloc." style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="161.25" y="560" width="492.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-18" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="560" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-19" value="int *completed_processes&amp;nbsp;&lt;div&gt;=&amp;nbsp; (int *)calloc(n, sizeof(int));&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="565" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-23" value="แสดงข้อมูลพื้นฐานของอัลกอริทึม" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318.13" y="640" width="178.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-26" target="xQF8ePdnXQJCXrwEv5hU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-23" target="xQF8ePdnXQJCXrwEv5hU-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-31" target="xQF8ePdnXQJCXrwEv5hU-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-31" value="สร้างตัวแปร&amp;nbsp; ตั้ง &lt;code data-end=&quot;712&quot; data-start=&quot;696&quot;&gt;selected_index&lt;/code&gt; เป็น -1 และ &lt;code data-end=&quot;743&quot; data-start=&quot;725&quot;&gt;highest_priority&lt;/code&gt; เป็น 9999" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="268.38" y="800" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="800" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-35" value="เพื่อเริ่มค้นหากระบวนการที่มีลำดับความสำคัญ&lt;div&gt;สูงสุดที่มาถึงแล้วและยังไม่เสร็จ.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="805" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="970.1724137931035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-36" value="i &amp;lt; n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="940" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-37" value="i = 0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="371.25" y="880" width="72.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-37" target="xQF8ePdnXQJCXrwEv5hU-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-40" value="Ture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="930" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-42" value="ตรวจสอบว่ากระบวนการที่ &lt;code data-end=&quot;400&quot; data-start=&quot;397&quot;&gt;i&lt;/code&gt; มีเวลามาถึง (&lt;code data-end=&quot;428&quot; data-start=&quot;414&quot;&gt;arrival_time&lt;/code&gt;) น้อยกว่าหรือเท่ากับ &lt;code data-end=&quot;464&quot; data-start=&quot;450&quot;&gt;current_time&lt;/code&gt; หรือไม่.&lt;div&gt;และกระบวนการแต่ละตัวเสร็จสมบูรณ์หรือยัง&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="898.75" width="285" height="142.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-45" value="Ture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1050" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="685.0050000000001" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-47" target="xQF8ePdnXQJCXrwEv5hU-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="965" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-47" value="มี&amp;nbsp;priority ต่ำกว่า high&amp;nbsp;priority" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="603.13" y="1100" width="163.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-48" value="Ture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1180" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-50" value="เปลี่ยนค่า high&amp;nbsp;priority เป็นค่า ของ priorityตัวที่ i" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1220" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-51" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="955" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-42" target="xQF8ePdnXQJCXrwEv5hU-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-54" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="938" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-55" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1100" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
