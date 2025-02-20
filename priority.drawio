@@ -1,14 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
   <diagram name="Page-1" id="1UH8hFeLwi0AJCHHLiri">
-    <mxGraphModel dx="1282" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="513" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xQF8ePdnXQJCXrwEv5hU-3" value="รับข้อมูล ของ Process (Burst time , a)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="325" y="200" width="100" height="100" as="geometry" />
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-3" target="xQF8ePdnXQJCXrwEv5hU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-3" value="รับข้อมูล ของ Process (Burst time , arrival_time , priority)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-4" target="xQF8ePdnXQJCXrwEv5hU-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xQF8ePdnXQJCXrwEv5hU-4" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="340" y="70" width="100" height="60" as="geometry" />
+          <mxGeometry x="357.5" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-8" target="xQF8ePdnXQJCXrwEv5hU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-8" value="หาจำนวน Process ใส่ไว้ใน n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="320" width="192" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xQF8ePdnXQJCXrwEv5hU-10" target="xQF8ePdnXQJCXrwEv5hU-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-10" value="priority_scheduling โดยส่งตัวแปร (processes, n);" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="266.63" y="400" width="281.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xQF8ePdnXQJCXrwEv5hU-12" value="สร้างตัวแปร&amp;nbsp;&amp;nbsp;current_time ,&amp;nbsp;total_waiting_time&lt;div&gt;total_turnaround_time&amp;nbsp;completed กำหนดค่าเริ่มต้นเป็น 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="257.51" y="480" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
